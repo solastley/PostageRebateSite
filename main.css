@@ -1,2 +1,43 @@
 /*Source code by Solomon Astley
 CSS styling for the home page of postagerebate site*/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #0193B7;  /*Sets the text hover color on navbar*/
+	font-family: 'Droid Serif', serif;
+	font-size: 18px;
+}
+
+.navbar-default {
+    background-color: #D1C5B7;
+    border-color: #735D41;
+    border-radius: 0px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+ 	color: #0193B7;
+ 	text-decoration: none;
+ 	background-color: #D1C5B7;  /*change color of links in drop down here*/
+ }
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #D1C5B7; /*Change rollover cell color here*/
+ }
+
+
+.navbar-default .navbar-nav > li > a {
+ 	color: #063E53; /*Change active text color here*/
+ 	font-family: 'Droid Serif', serif;
+ 	font-size: 18px;
+ }
+
+.navbar-default .navbar-header > a,
+.navbar-default .navbar-header > a:hover {
+	color: #063E53;
+	/*font-family: 'Bree Serif', serif;*/
+	font-family: 'Crete Round', serif;
+	font-size: 30px;
+}
+
