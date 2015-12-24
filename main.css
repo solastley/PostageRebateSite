@@ -4,7 +4,7 @@ CSS styling for the home page of postagerebate site*/
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #0193B7;  /*Sets the text hover color on navbar*/
 	font-family: 'Droid Serif', serif;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .navbar-default {
@@ -30,7 +30,7 @@ CSS styling for the home page of postagerebate site*/
 .navbar-default .navbar-nav > li > a {
  	color: #063E53; /*Change active text color here*/
  	font-family: 'Droid Serif', serif;
- 	font-size: 18px;
+ 	font-size: 16px;
  }
 
 .navbar-default .navbar-header > a,
@@ -41,3 +41,54 @@ CSS styling for the home page of postagerebate site*/
 	font-size: 30px;
 }
 
+.jumbotron {
+	padding-top: 0;
+	bottom: auto;
+	height: 500px;
+}
+
+body {
+	background: #F8ECE0 !important;
+}
+
+.slide1, .slide2, .slide3 {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center center;
+}
+.slide1 {
+    background-image: url(http://www.theswedishtiger.com/1066.jpg);
+    opacity: 0.5;
+}
+.slide2 {
+    background-image: url(http://www.theswedishtiger.com/1017.jpg);
+    opacity: 0.5;
+}
+.slide3 {
+    background-image: url(http://www.theswedishtiger.com/1070.jpg);
+    opacity: 0.5;
+}
+
+.carousel-overlay {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+}
+
+.carousel .carousel-overlay > h1 {
+	color: 063E53;
+	font-family: 'Crete Round', serif;
+	font-size: 50px;
+	-webkit-text-stroke: 1px white;
+}
+
+.carousel .carousel-overlay .btn {
+	background-color: #063E53 !important;
+	border-color: #063E53 !important;
+}
+
+.carousel .carousel-overlay > p {
+	color: #735D41;
+	font-family: 'Droid Serif', serif;
+}
