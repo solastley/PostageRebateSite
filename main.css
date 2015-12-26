@@ -2,7 +2,7 @@
 CSS styling for the home page of postagerebate site*/
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #0193B7;  /*Sets the text hover color on navbar*/
+	background-color: #0193B7;  /*Sets the text hover color on navbar*/
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
 }
@@ -12,13 +12,6 @@ CSS styling for the home page of postagerebate site*/
     border-color: #735D41;
     border-radius: 0px;
 }
-
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
- 	color: #0193B7;
- 	text-decoration: none;
- 	background-color: #D1C5B7;  /*change color of links in drop down here*/
- }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -41,32 +34,26 @@ CSS styling for the home page of postagerebate site*/
 	font-size: 30px;
 }
 
-.jumbotron {
-	padding-top: 0;
-	bottom: auto;
-	height: 500px;
-}
-
 body {
-	background: #F8ECE0 !important;
+	background: #D1C5B7 !important;
 }
 
 .slide1, .slide2, .slide3 {
-    min-height: 560px;
+    min-height: 580px;
     background-size: cover;
     background-position: center center;
 }
 .slide1 {
     background-image: url(http://www.theswedishtiger.com/1066.jpg);
-    opacity: 0.5;
+    opacity: 0.2;
 }
 .slide2 {
     background-image: url(http://www.theswedishtiger.com/1017.jpg);
-    opacity: 0.5;
+    opacity: 0.2;
 }
 .slide3 {
     background-image: url(http://www.theswedishtiger.com/1070.jpg);
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .carousel-overlay {
@@ -77,10 +64,10 @@ body {
 }
 
 .carousel .carousel-overlay > h1 {
-	color: 063E53;
-	font-family: 'Crete Round', serif;
+	color: #063E53;
+	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
-	-webkit-text-stroke: 1px white;
+	/*-webkit-text-stroke: 1px white;*/
 }
 
 .carousel .carousel-overlay .btn {
@@ -88,7 +75,41 @@ body {
 	border-color: #063E53 !important;
 }
 
+.carousel .carousel-overlay .btn:hover {
+	background-color: #063E53;
+	opacity: 0.85;
+}
+
 .carousel .carousel-overlay > p {
-	color: #735D41;
+	color: #331A00;
 	font-family: 'Droid Serif', serif;
+}
+
+.the-bottom {
+	background-color: #D1C5B7 !important;
+	color: #063E53;
+	font-family: 'Droid Serif', serif;
+	border-color: #735D41;
+}
+
+.the-bottom .pull-right {
+	text-align: right;
+}
+
+.the-bottom h3, .the-bottom p {
+	font-size: 15px;
+	padding-left: 5em;
+}
+
+span.glyphicon-envelope {
+	font-size: 2.5em;
+	color: #063E53;
+}
+
+span.glyphicon-envelope:hover {
+	opacity: 0.85;
+}
+
+.row-bottom-margin p {
+	margin: 0;
 }
