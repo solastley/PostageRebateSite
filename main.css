@@ -39,11 +39,11 @@ body {
 }
 
 #bg-fade-carousel {
-	background-color: #FFDDA2 !important;
+	background-color: white !important;
 }
 
 .slide1, .slide2, .slide3 {
-    min-height: 580px;
+    height: 85vh;
     background-size: cover;
     background-position: center center;
 }
