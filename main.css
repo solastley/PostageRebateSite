@@ -8,34 +8,38 @@ CSS styling for the home page of postagerebate site*/
 }
 
 .navbar-default {
-    background-color: #D1C5B7;
-    border-color: #735D41;
+    background-color: #152D51;
+    border-color: #152D51;
     border-radius: 0px;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
     text-decoration: none;
-    background-color: #D1C5B7; /*Change rollover cell color here*/
+    background-color: #152D51; /*Change rollover cell color here*/
  }
 
 
 .navbar-default .navbar-nav > li > a {
- 	color: #063E53; /*Change active text color here*/
+ 	color: #FFDDA2; /*Change active text color here*/
  	font-family: 'Droid Serif', serif;
  	font-size: 16px;
  }
 
 .navbar-default .navbar-header > a,
 .navbar-default .navbar-header > a:hover {
-	color: #063E53;
+	color: #FFDDA2;
 	/*font-family: 'Bree Serif', serif;*/
 	font-family: 'Crete Round', serif;
 	font-size: 30px;
 }
 
 body {
-	background: #D1C5B7 !important;
+	background: #152D51 !important;
+}
+
+#bg-fade-carousel {
+	background-color: #FFDDA2 !important;
 }
 
 .slide1, .slide2, .slide3 {
@@ -64,19 +68,19 @@ body {
 }
 
 .carousel .carousel-overlay > h1 {
-	color: #063E53;
+	color: #152D51;
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
-	/*-webkit-text-stroke: 1px white;*/
+	/*-webkit-text-stroke: 1px #FFDDA2;*/
 }
 
 .carousel .carousel-overlay .btn {
-	background-color: #063E53 !important;
-	border-color: #063E53 !important;
+	background-color: #152D51 !important;
+	border-color: #152D51 !important;
 }
 
 .carousel .carousel-overlay .btn:hover {
-	background-color: #063E53;
+	background-color: #FFDDA2;
 	opacity: 0.85;
 }
 
@@ -86,10 +90,10 @@ body {
 }
 
 .the-bottom {
-	background-color: #D1C5B7 !important;
-	color: #063E53;
+	background-color: #152D51 !important;
+	color: #FFDDA2;
 	font-family: 'Droid Serif', serif;
-	border-color: #735D41;
+	border-color: #152D51;
 }
 
 .the-bottom .pull-right {
@@ -103,7 +107,7 @@ body {
 
 span.glyphicon-envelope {
 	font-size: 2.5em;
-	color: #063E53;
+	color: #FFDDA2;
 }
 
 span.glyphicon-envelope:hover {
@@ -112,4 +116,5 @@ span.glyphicon-envelope:hover {
 
 .row-bottom-margin p {
 	margin: 0;
+	padding-top: 5px;
 }
